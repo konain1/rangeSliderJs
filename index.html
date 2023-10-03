@@ -9,7 +9,23 @@
 <body>
     
     <div class="main">
-        <input type="range" min="1" max="10" value="1">
+        <input type="range" min="1" max="10" value="1" id="slider">
+       <div id="selector">
+        <div id="selectorBtn"></div>
+        <div id="selectedvalue"></div>
+       </div> 
     </div>
+
+
+    <script>
+let slider = document.getElementById('slider')
+let selector = document.getElementById('selector')
+
+slider.oninput = function(){
+    selector.style.left = this.value + "%";
+}
+
+    </script>
 </body>
+
 </html>
