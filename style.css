@@ -1,0 +1,13 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #000;
+}
+.main{
+    width: 60%;
+    margin: 24% auto;
+    position: relative;
+}
